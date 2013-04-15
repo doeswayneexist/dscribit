@@ -2,6 +2,9 @@
 
 
 */
+body {
+	font-family: 'Noto Sans', sans-serif;
+}
 
 .cardWrap {
 	width: 460px;
@@ -76,4 +79,11 @@ input, .help, .submit {
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
     color:    #999;
+}
+
+
+/*admin_cards.php*/
+
+.adminCards {
+	font-size: 16px;
 }
