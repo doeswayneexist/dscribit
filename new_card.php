@@ -7,8 +7,10 @@
 	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="introjs.css">
-
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script src="intro.js"></script>
+	<script src="addCard.js"></script>
 </head>
 
 
@@ -18,13 +20,13 @@
 		<div class="help" onclick="introJs().start();">
 			<span>Help.</span>
 		</div>
-		<input type="text" class="good" placeholder="Enter a word to be guessed." data-intro="<?php echo $step1 ?>" data-step='1'>
-		<input type="text" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='2'>
-		<input type="text" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='3'>
-		<input type="text" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='4'>
-		<input type="text" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='5'>
-		<input type="text" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='6'>
-		<div class="submit" id="sub">
+		<input type="text" id="word" class="good" placeholder="Enter a word to be guessed." data-intro="<?php echo $step1 ?>" data-step='1'>
+		<input type="text" id="ban1" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='2'>
+		<input type="text" id="ban2" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='3'>
+		<input type="text" id="ban3" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='4'>
+		<input type="text" id="ban4" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='5'>
+		<input type="text" id="ban5" placeholder="Enter a banned word." data-intro="<?php echo $step2 ?>" data-step='6'>
+		<div class="submit" id="sub" onclick="addCard();">
 			<span>Submit.</span>
 		</div>
 	</div>
