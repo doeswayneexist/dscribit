@@ -1,4 +1,4 @@
-// The function that adds the card to the database.
+// The function that passes the id to the php page that deletes cards
 var deleteCard = function (id) {
 
 	//submit the cards to be added to the db
@@ -15,6 +15,7 @@ var deleteCard = function (id) {
 	$(this.parentNode).remove();
 }
 
+// The function that passes the id to the php page that approves cards
 var approveCard = function (id) {
 
 	//submit the cards to be added to the db

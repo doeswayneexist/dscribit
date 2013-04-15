@@ -1,16 +1,15 @@
 <?php 
-//takes in the id of a card and approves it from the database
+/*
+This script takes in the id of a card and updates its ok value to 1 
+*/
 
 //connect to the database 
 require 'db_connect.php';
 
-//dev: set id to something
-$id = $_POST['id'];;
+//get the id of the card to be updated
+$id = $_POST['id'];
 
-//delete the chosen card
-$sql="UPDATE $tbl_name
-            SET ok = '1'
-            WHERE id='$id'";
-
+//build the query string and update the chosen card
+$sql="UPDATE $tbl_name SET ok = '1' WHERE id='$id'";
 mysql_query($sql);
 ?>

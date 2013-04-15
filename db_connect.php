@@ -1,4 +1,10 @@
 <?php 
+/*
+This script sets all the info for the cards database
+Include this file into any page that needs to connect
+*/
+
+//db info
 $host="localhost"; // Host name 
 $username="root"; // Mysql username 
 $password="root"; // Mysql password 

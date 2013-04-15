@@ -9,6 +9,7 @@ var addCard = function () {
 			ban4 = document.getElementById('ban4').value.toString(),
 			ban5 = document.getElementById('ban5').value.toString();
 
+	//resets the input fields
 	function resetCard() {
 			document.getElementById('word').value = '';
 			document.getElementById('ban1').value = '';
@@ -17,6 +18,7 @@ var addCard = function () {
 			document.getElementById('ban4').value = '';
 			document.getElementById('ban5').value = '';
 	}
+	
 	//submit the cards to be added to the db
 	$.ajax({
     type: "POST",
