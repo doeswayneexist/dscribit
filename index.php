@@ -1,3 +1,10 @@
-<p><a href="play.php">Play.</a></p>
-<p><a href="new_card.php">Add new card.</a></p>
-<p><a href="admin_cards.php">Admin cards.</a></p>
+<head>
+
+	<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="introjs.css">
+	<script src="intro.js"></script>
+
+</head>
+
+<?php include 'header.php'; ?>

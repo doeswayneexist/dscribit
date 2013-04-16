@@ -17,7 +17,7 @@ $step3 = "Click this button when are ready to play or when your partner has gues
 
 </head>
 
-
+<?php include 'header.php'; ?>
 
 <div class="cardWrap">
 	<h1>Pick a card.</h1>

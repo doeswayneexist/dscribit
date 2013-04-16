@@ -6,6 +6,25 @@ body {
 	font-family: 'Noto Sans', sans-serif;
 }
 
+/*header*/
+header {
+	text-align: center;
+}
+header h1{
+	margin-bottom: 0px;
+	font-size: 48px;
+}
+header ul {
+	margin: 0px;
+	padding: 0px;
+}
+header ul li {
+	display: inline-block;
+}
+
+header ul li a {
+	text-decoration: none;
+}
 .cardWrap {
 	width: 460px;
 	margin: 25px auto;
