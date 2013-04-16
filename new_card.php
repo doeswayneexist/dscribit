@@ -18,6 +18,7 @@ $step3 = "Submit your card when you are ready to release your card to the word."
 	<script src="addCard.js"></script>
 </head>
 
+<?php include 'header.php'; ?>
 
 <body>
 	<div class="cardWrap">
