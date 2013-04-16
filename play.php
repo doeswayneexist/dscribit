@@ -20,6 +20,7 @@ $step3 = "Click this button when are ready to play or when your partner has gues
 <?php include 'header.php'; ?>
 
 <div class="cardWrap">
+	<h2 class="timer">time:<span id="time">120</span></h2>
 	<h1>Pick a card.</h1>
 	<div class="card">
 		<div class="help" onclick="introJs().start();">
@@ -32,8 +33,14 @@ $step3 = "Click this button when are ready to play or when your partner has gues
 		<p class="ban">Do not use any of these words.</p>
 		<p class="ban">Do not use any of these words.</p>
 	</div>
-	<div class="submit" id="sub" onclick="getCard();" data-intro="<?php echo $step3 ?>" data-step='3'>
-			<span>Got it.</span>
+	<div class="submit skip" id="" onclick="skipCard();" data-intro="<?php echo $step3 ?>" data-step='4'>
+			<span>Skip It.</span>
+	</div>
+	<div class="submit" id="play" onclick="play();" data-intro="<?php echo $step3 ?>" data-step='3'>
+			<span>Play.</span>
+	</div>
+	<div class="submit" id="sub" onclick="gotCard();">
+			<span>Got It.</span>
 	</div>
 </div>
 

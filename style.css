@@ -54,7 +54,7 @@ header ul li a {
 
 /*orange*/
 .cardWrap .help {
-	background: #EE9D00 !important;
+	background: #F8CB6E !important;
 	width: 24%;
 	position: absolute;
 	right: 0px;
@@ -87,6 +87,12 @@ input, .help, .submit, .word, .ban {
 	background: #F66576;
 }
 
+/*yellow*/
+.skip {
+	background: #F8CB6E !important;
+	float: right;
+}
+
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    white;
 }
@@ -106,3 +112,18 @@ input, .help, .submit, .word, .ban {
 .adminCards {
 	font-size: 16px;
 }
+
+/*Timer*/
+.timer {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	color: black;
+	font-size: 18px;
+	margin-top: 0px;
+}
+
+#time {
+	font-size: 36px;
+}
+
